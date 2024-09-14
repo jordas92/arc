@@ -1,0 +1,145 @@
+#  Template React Deploy
+
+#  This template allows you to deploy your React app to an AWS S3 bucket and invalidate the old AWS Cloudfront distribution.
+#  The react app will be validated, deployed to S3 and trigger an AWS Cloudfront distribution invalidation to refresh the CDN caches after the code is merged to master.
+
+# Prerequisites: $AWS_ACCESS_KEY_ID, $AWS_SECRET_ACCESS_KEY setup in the Deployment variables.
+# README https://bitbucket.org/atlassian/aws-s3-deploy/src/master/README.md
+# README https://bitbucket.org/atlassian/aws-cloudfront-invalidate/src/master/README.md
+
+image: node:18.18
+
+# Definitions
+
+# Workflow Configuration
+
+pipelines:
+  branches:
+    develop:
+      - stage:
+          name: Build and deploy to preview environment
+          deployment: Preview
+          steps:
+            - step:
+                name: Build
+                script:
+                  - npm install
+                  - npm run build
+                artifacts:
+                  - build/**
+            - step:
+                name: Deploy to preview environment
+                clone:
+                  enabled: false
+                script:
+                  # sync your files to S3
+                  - pipe: atlassian/aws-s3-deploy:1.1.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      S3_BUCKET: $AWS_BUCKET_NAME
+                      LOCAL_PATH: 'build'
+                  # triggering a distribution invalidation to refresh the CDN caches
+                  - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      DISTRIBUTION_ID: $AWS_CF_DISTRIBUTION_ID
+    migration:
+      - stage:
+          name: Build and deploy to migration environment
+          deployment: Migration
+          steps:
+            - step:
+                name: Build
+                script:
+                  - npm install
+                  - npm run build
+                artifacts:
+                  - build/**
+            - step:
+                name: Deploy to migration environment
+                clone:
+                  enabled: false
+                script:
+                  # sync your files to S3
+                  - pipe: atlassian/aws-s3-deploy:1.1.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      S3_BUCKET: $AWS_BUCKET_NAME
+                      LOCAL_PATH: 'build'
+                  # triggering a distribution invalidation to refresh the CDN caches
+                  - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      DISTRIBUTION_ID: $AWS_CF_DISTRIBUTION_ID
+    release/*:
+      - stage:
+          name: Build and deploy to stage environment
+          deployment: Staging
+          steps:
+            - step:
+                name: Build
+                script:
+                  - npm install
+                  - npm run build
+                artifacts:
+                  - build/**
+            - step:
+                name: Deploy to staging environment
+                clone:
+                  enabled: false
+                script:
+                  # sync your files to S3
+                  - pipe: atlassian/aws-s3-deploy:1.1.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      S3_BUCKET: $AWS_BUCKET_NAME
+                      LOCAL_PATH: 'build'
+                  # triggering a distribution invalidation to refresh the CDN caches
+                  - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      DISTRIBUTION_ID: $AWS_CF_DISTRIBUTION_ID
+    master:
+      - stage:
+          name: Build and deploy to production environment
+          deployment: Production
+          steps:
+            - step:
+                name: Build
+                script:
+                  - npm install
+                  - npm run build
+                artifacts:
+                  - build/**
+            - step:
+                name: Deploy to production environment
+                clone:
+                  enabled: false
+                script:
+                  # sync your files to S3
+                  - pipe: atlassian/aws-s3-deploy:1.1.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      S3_BUCKET: $AWS_BUCKET_NAME
+                      LOCAL_PATH: 'build'
+                  # triggering a distribution invalidation to refresh the CDN caches
+                  - pipe: atlassian/aws-cloudfront-invalidate:0.6.0
+                    variables:
+                      AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                      AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                      AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                      DISTRIBUTION_ID: $AWS_CF_DISTRIBUTION_ID

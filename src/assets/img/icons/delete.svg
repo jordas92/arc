@@ -1,0 +1,20 @@
+<svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+	 xmlns="http://www.w3.org/2000/svg">
+	<g id="Icons/Delete" clip-path="url(#clip0_1892_39756)">
+		<path id="Vector" d="M1.80145 3.17798H2.80145H10.8015" stroke="#5CCF94"
+			  stroke-linecap="round" stroke-linejoin="round"/>
+		<path id="Vector_2"
+			  d="M9.80145 3.17798V10.178C9.80145 10.4432 9.6961 10.6975 9.50856 10.8851C9.32102 11.0726 9.06667 11.178 8.80145 11.178H3.80145C3.53624 11.178 3.28188 11.0726 3.09435 10.8851C2.90681 10.6975 2.80145 10.4432 2.80145 10.178V3.17798M4.30145 3.17798V2.17798C4.30145 1.91276 4.40681 1.65841 4.59435 1.47087C4.78188 1.28334 5.03624 1.17798 5.30145 1.17798H7.30145C7.56667 1.17798 7.82102 1.28334 8.00856 1.47087C8.1961 1.65841 8.30145 1.91276 8.30145 2.17798V3.17798"
+			  stroke="#5CCF94" stroke-linecap="round" stroke-linejoin="round"/>
+		<path id="Vector_3" d="M5.30145 5.67798V8.67798" stroke="#5CCF94"
+			  stroke-linecap="round" stroke-linejoin="round"/>
+		<path id="Vector_4" d="M7.30145 5.67798V8.67798" stroke="#5CCF94"
+			  stroke-linecap="round" stroke-linejoin="round"/>
+	</g>
+	<defs>
+		<clipPath id="clip0_1892_39756">
+			<rect width="12" height="12" fill="white"
+				  transform="translate(0.301453 0.177979)"/>
+		</clipPath>
+	</defs>
+</svg>

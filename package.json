@@ -1,0 +1,107 @@
+{
+	"name": "arcana-ui",
+	"version": "1.5.0",
+	"description": "Arcana Web UI",
+	"author": {
+		"name": "Arcana",
+		"url": "https://www.arcana.com"
+	},
+	"proxy": "https://api.dev.arcanadevs.com/*",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"build:dev": "react-scripts build",
+		"test": "react-scripts test",
+		"test:nowatch": "react-scripts test --watchAll=false",
+		"test:coverage": "react-scripts test --watchAll=false --coverage",
+		"format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+		"lint": "eslint ./ --ext ts --ext tsx",
+		"lint:fix": "eslint --fix .",
+		"prettier": "prettier --check **/*.{js,jsx,ts,tsx}",
+		"prettier:fix": "prettier --write **/*.{js,jsx,ts,tsx}"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.11.4",
+		"@emotion/styled": "^11.11.0",
+		"@mui/icons-material": "^5.15.14",
+		"@mui/material": "^5.15.14",
+		"@reduxjs/toolkit": "^2.2.2",
+		"async-mutex": "^0.5.0",
+		"dotenv": "^16.4.5",
+		"formik": "^2.4.5",
+		"history": "^5.3.0",
+		"konva": "^9.3.6",
+		"pusher-js": "^8.3.0",
+		"react": "^18.3.0",
+		"react-colorful": "^5.6.1",
+		"react-dom": "^18.3.0",
+		"react-dnd": "^16.0.1",
+		"react-dnd-html5-backend": "^16.0.1",
+		"react-dropzone": "^14.2.3",
+		"react-error-boundary": "^4.0.13",
+		"react-gtm-module": "^2.0.11",
+		"react-helmet": "^6.1.0",
+		"react-konva": "^18.2.10",
+		"react-redux": "^9.1.0",
+		"react-router-dom": "^6.22.3",
+		"react-scripts": "^5.0.1",
+		"react-share": "^5.1.0",
+		"react-virtualized-auto-sizer": "^1.0.24",
+		"react-window": "^1.8.10",
+		"react-window-infinite-loader": "^1.0.9",
+		"redux": "^5.0.1",
+		"redux-persist": "^6.0.0",
+		"typescript": "^4.9.5",
+		"use-image": "^1.1.1",
+		"web-vitals": "^3.5.2",
+		"yup": "^1.4.0"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+		"@testing-library/jest-dom": "^6.4.2",
+		"@testing-library/react": "^14.2.2",
+		"@testing-library/user-event": "^14.5.2",
+		"@types/d3": "^7.4.3",
+		"@types/jest": "^29.5.12",
+		"@types/material-ui": "^0.21.17",
+		"@types/node": "^20.11.30",
+		"@types/react": "^18.2.72",
+		"@types/react-dom": "^18.2.22",
+		"@types/react-helmet": "^6.1.11",
+		"@types/react-router-dom": "^5.3.3",
+		"@types/react-share": "^4.0.0",
+		"@types/react-window-infinite-loader": "^1.0.9",
+		"@types/uuid": "^9.0.8",
+		"@typescript-eslint/parser": "^7.4.0",
+		"eslint": "^8.57.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-config-react-app": "^7.0.1",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-jsx-a11y": "^6.8.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"eslint-plugin-react": "^7.34.1",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"prettier": "^3.2.5"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"prettier": {
+		"singleQuote": false,
+		"printWidth": 125
+	}
+}

@@ -1,0 +1,105 @@
+{
+	"extends": [
+		"react-app",
+		"airbnb",
+		"plugin:import/react",
+		"plugin:react/recommended",
+		"plugin:import/errors",
+		"plugin:import/warnings",
+		"plugin:import/errors",
+		"plugin:jsx-a11y/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:prettier/recommended"
+	],
+	"rules": {
+		"react/prop-types": 0,
+		"react/react-in-jsx-scope": 0,
+		"import/no-unresolved": 0,
+		"no-unused-vars": 0,
+		"react/no-unknown-property": 0,
+		"import/extensions": "off",
+		"import/no-extraneous-dependencies": "off",
+		"react/display-name": "off",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"brace-style": "error",
+		"prefer-template": "error",
+		"space-before-blocks": "error",
+		"no-console": "off",
+		"no-shadow": "off",
+		"no-restricted-globals": "off",
+		"no-use-before-define": "off",
+		"prefer-promise-reject-errors": "off",
+		"react/jsx-filename-extension": "off",
+		"react/require-default-props": "off",
+		"import/prefer-default-export": "off",
+		"react/no-unused-prop-types": "off",
+		"no-param-reassign": "off",
+		"react/function-component-definition": "off",
+		"default-param-last": "off",
+		"react/jsx-no-bind": "off",
+		"react/no-array-index-key": "off",
+		"consistent-return": "off",
+		"no-prototype-builtins": "off",
+		"jsx-a11y/anchor-is-valid": "off",
+		"camelcase": "warn",
+		"no-bitwise": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/no-unescaped-entities": "off",
+		"no-plusplus": "off",
+		"max-len": [
+			"warn",
+			140
+		],
+		"curly": "error",
+		"complexity": [
+			"warn",
+			20
+		],
+		"prettier/prettier": [
+			"error",
+			{
+				"singleQuote": true,
+				"semi": true,
+				"tabWidth": 4,
+				"trailingComma": "all",
+				"endOfLine": "auto",
+				"printWidth": 100,
+				"bracketSameLine": false
+			}
+		]
+	},
+	"overrides": [
+		{
+			"files": ["termsOfServices.ts", "privacyPolicy.ts"],
+			"rules": {
+				"max-len": "off" // Turn off max-len rule for these files
+			}
+		}
+	],
+	"plugins": [
+		"react",
+		"import",
+		"jsx-a11y",
+		"prettier",
+		"eslint-plugin-react-hooks"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
+}

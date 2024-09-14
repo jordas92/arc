@@ -1,0 +1,20 @@
+version: "3.8"
+name: arcana
+services:
+    webui:
+        container_name: webui
+        build:
+            context: .
+            dockerfile: .docker/dev/Dockerfile
+        develop:
+            watch:
+                -   action: sync
+                    path: .
+                    target: /app
+                    ignore:
+                        - node_modules/
+                -   action: rebuild
+                    path: package.json
+        ports:
+            - 3000:3000
+        entrypoint: [ "npm", "start" ]

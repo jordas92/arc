@@ -1,0 +1,16 @@
+@import 'scrollbar.css';
+
+/* html {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+} */
+
+.konvajs-content {
+	margin: 0 auto;
+}
+
+.konvajs-content > canvas {
+	margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+.hide-vertical-scroll-bar {
+	overflow-y: scroll;
+	scrollbar-width: none; /* for Moz browsers: Firefox */
+	-ms-overflow-style: none; /* for MS browsers: IE and old Edge */
+}
+
+.hide-vertical-scroll-bar::-webkit-scrollbar {
+	display: none; /* for WebKit browsers: Chrome, Safari, new Edge, new Opera etc. */
+}

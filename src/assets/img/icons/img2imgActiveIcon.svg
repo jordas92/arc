@@ -1,0 +1,23 @@
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+	 xmlns="http://www.w3.org/2000/svg">
+	<g id="Frame 857">
+		<g clip-path="url(#clip0_3215_9391)">
+			<rect width="22" height="22" rx="7.77" fill="#60E09F"/>
+			<path id="Vector"
+				  d="M22 17L17.194 11.0882C17.0871 10.9783 16.9602 10.8911 16.8205 10.8316C16.6808 10.7721 16.531 10.7415 16.3798 10.7415C16.2285 10.7415 16.0788 10.7721 15.939 10.8316C15.7993 10.8911 15.6724 10.9783 15.5655 11.0882L11.6793 15.0817C11.4195 15.3485 10.9888 15.342 10.7373 15.0674L5.65068 9.51478C5.39613 9.23691 4.95905 9.2341 4.70094 9.50867L-1 15.5734"
+				  stroke="url(#paint0_linear_3215_9391)" stroke-width="2"
+				  stroke-miterlimit="10"/>
+		</g>
+	</g>
+	<defs>
+		<linearGradient id="paint0_linear_3215_9391" x1="1.61944" y1="9"
+						x2="2.47717" y2="13.9621"
+						gradientUnits="userSpaceOnUse">
+			<stop stop-color="#0B0636"/>
+			<stop offset="1" stop-color="#0F0E19"/>
+		</linearGradient>
+		<clipPath id="clip0_3215_9391">
+			<rect width="22" height="22" rx="7.77" fill="white"/>
+		</clipPath>
+	</defs>
+</svg>

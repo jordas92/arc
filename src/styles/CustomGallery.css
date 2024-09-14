@@ -1,0 +1,4 @@
+.pswp,
+.pswp--open {
+	z-index: 9999;
+}

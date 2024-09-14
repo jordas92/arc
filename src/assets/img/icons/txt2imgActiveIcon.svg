@@ -1,0 +1,28 @@
+<svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+	 xmlns="http://www.w3.org/2000/svg">
+	<g id="Group 115">
+		<rect id="Rectangle 172" width="22.6744" height="22.0266" rx="6"
+			  fill="#60E09F"/>
+		<path id="Vector"
+			  d="M5.18286 6.48047L9.25965 10.5573C9.51265 10.8103 9.51265 11.2204 9.25965 11.4734L5.18286 15.5502"
+			  stroke="url(#paint0_linear_3215_8586)" stroke-width="2"
+			  stroke-miterlimit="10"/>
+		<path id="Vector 29" d="M12.3091 16.1953H18.1396"
+			  stroke="url(#paint1_linear_3215_8586)" stroke-width="2"
+			  stroke-miterlimit="10"/>
+	</g>
+	<defs>
+		<linearGradient id="paint0_linear_3215_8586" x1="9.20127" y1="6.48047"
+						x2="6.30448" y2="9.39496"
+						gradientUnits="userSpaceOnUse">
+			<stop stop-color="#0B0636"/>
+			<stop offset="1" stop-color="#0F0E19"/>
+		</linearGradient>
+		<linearGradient id="paint1_linear_3215_8586" x1="17.4756" y1="16.1953"
+						x2="17.4216" y2="16.8295"
+						gradientUnits="userSpaceOnUse">
+			<stop stop-color="#0B0636"/>
+			<stop offset="1" stop-color="#0F0E19"/>
+		</linearGradient>
+	</defs>
+</svg>

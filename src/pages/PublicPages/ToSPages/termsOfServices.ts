@@ -1,0 +1,473 @@
+/** Copyright (c) 2024-present Kristiyan Dimitrov */
+// eslint-disable-next-line max-len
+
+export const TermsOfServicesContent = {
+	title: 'Terms of Services',
+	introduction: [
+		{
+			isParagraph: true,
+			text: 'Thank You for using the Arcana platform (the <q>Services</q>). These Terms of Service (the <q>Agreement</q>) explain what rights You have with respect to images and other assets which You might generate with the Services, or prompts You might enter into the Service (the <q>Assets</q>), Your use of the Services, and other important topics like arbitration. Please read it carefully. Our <q>Privacy Policy</q> below outlines how We handle Your data.',
+		},
+		{
+			isParagraph: true,
+			text: 'This Agreement is entered into by Arcana Labs Corp. (<q>Arcana,</q> <q>We,</q> or <q>Our") and the entity or person agreeing to these terms (the "Customer," <q>You</q> or <q>Your</q>) and govern the Customer\'s access to and use of the Services.',
+		},
+		{
+			isParagraph: true,
+			text: 'This Agreement is effective when the Customer commences to use the Services (the "Effective Date") or to receive or distribute Assets. These terms may be updated and presented again to the Customer from time to time. Continued use of the Services constitutes acceptance of the updated terms. If You do not agree to this Agreement, please stop using the Services.',
+		},
+		{
+			isParagraph: true,
+			text: 'Other documents referenced here may also bind Customer’s use of the Services, including the Community Guidelines below.',
+		},
+		{
+			isParagraph: true,
+			text: '<b>IMPORTANT NOTE: The section titled <q>Dispute Resolution and Governing Law</q> contains an arbitration clause and class-action waiver that applies to all U.S.-based Arcana users. Please read this section carefully as it may significantly affect Your legal rights, including Your right to file a lawsuit in court.</b>',
+		},
+	],
+	sections: [
+		{
+			title: 'Service Availability and Quality',
+			content: [
+				{
+					isParagraph: true,
+					text: 'We are constantly improving the Services to make them better. The Services are subject to modification and change, including but not limited to the art style of Assets, the algorithms used to generate the Assets, and features available to the Customer. No guarantees are made with respect to the Services’ quality, stability, uptime or reliability. Please do not create any dependencies on any attributes of the Services or the Assets. We will not be liable to You or Your downstream customers for any harm caused by Your dependency on the Service.',
+				},
+				{
+					isParagraph: true,
+					text: 'Both the Services and the Assets are provided to Customer on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Assets and assume any risks associated with use of the Services.',
+				},
+				{
+					isParagraph: true,
+					text: 'Arcana reserves the right to suspend or ban Your access to the Services at any time, and for any reason. You may not use the Services for competitive research. You may not reverse engineer the Services or the Assets. You may not use automated tools to access, interact with, or generate Assets through the Services. Only one user may use the Services per registered account. Each user of the Services may only have one account.',
+				},
+				{
+					isParagraph: true,
+					text: 'We reserve the right to investigate complaints or reported violations of our Terms of Service and to take any action We deem appropriate including but not limited to reporting any suspected unlawful activity to law enforcement officials, regulators, or other third parties and disclosing any information necessary or appropriate to such persons or entities relating to user profiles, e-mail addresses, usage history, posted materials, IP addresses and traffic information.',
+				},
+			],
+		},
+		{
+			title: 'Age Requirements',
+			content: [
+				{
+					isParagraph: true,
+					text: 'By accessing the Services, You confirm that You are at least 13 years old and meet the minimum age of digital consent in Your country. If You are old enough to access the Services in Your country, but not old enough to have authority to consent to our terms, Your parent or guardian must agree to our terms on Your behalf.',
+				},
+				{
+					isParagraph: true,
+					text: 'Please ask Your parent or guardian to read these terms with You. If You are a parent or legal guardian, and You allow Your teenager to use the Services, then these terms also apply to You and You are responsible for Your teenager’s activity on the Services, including purchases made by them.',
+				},
+				{
+					isParagraph: true,
+					text: 'Arcana tries to make its Services PG-13 and safe for public consumption, but the Assets are generated by an artificial intelligence system based on user queries. This is new technology and it does not always work as expected. No guarantees are made as to the suitability of the Assets for the Customer.',
+				},
+			],
+		},
+		{
+			title: 'Your Information',
+			content: [
+				{
+					isParagraph: true,
+					text: 'By using the Services, You may provide Arcana with personal information like Your email address, user name, billing information, favorites, image outputs, and text prompts that You enter, or sample images that You upload to the Service. Our Privacy Policy can be found below.',
+				},
+			],
+		},
+		{
+			title: 'Copyright and Trademark',
+			content: [
+				{
+					isParagraph: true,
+					text: 'Under construction',
+				},
+			],
+		},
+		{
+			title: 'DMCA and Takedowns Policy',
+			content: [
+				{
+					isParagraph: true,
+					text: "<p lang='it'>Notification Procedures</p>",
+				},
+				{
+					isParagraph: true,
+					text: 'We respect the intellectual property rights of others. If You believe that material located on or linked to by the Services violates Your copyright or trademark, please send a notice of claimed infringement to <a href="mailto:takedown@wearcanalabs.ai"><strong>stakedown@wearcanalabs.ai</strong></a> with the subject <q>Takedown Request,</q> and include the following:',
+				},
+				{
+					isParagraph: false,
+					text: 'i. Your physical or electronic signature.',
+				},
+				{
+					isParagraph: false,
+					text: 'ii. Identification of the copyrighted work (or mark) You believe to have been infringed or, if the claim involves multiple works, a representative list of such works.',
+				},
+				{
+					isParagraph: false,
+					text: 'iii. Identification of the material You believe to be infringing in a sufficiently precise and detailed manner to allow us to locate that material.',
+				},
+				{
+					isParagraph: false,
+					text: 'iv. Adequate information by which We can contact You (including Your name, postal address, telephone number, and, if available, email address).',
+				},
+				{
+					isParagraph: false,
+					text: 'v. A statement that You have a good faith belief that use of the copyrighted material is not authorized by the copyright owner, its agent, or the law.',
+				},
+				{
+					isParagraph: false,
+					text: 'vi. A statement that the information in the written notice is accurate.',
+				},
+				{
+					isParagraph: false,
+					text: 'vii. A statement, under penalty of perjury, that You are authorized to act on behalf of the copyright owner.',
+				},
+				{
+					isParagraph: true,
+					text: 'viii. If the copyright owner’s rights arise under the laws of a country other than the United States, please identify the country.',
+				},
+				{
+					isParagraph: true,
+					text: 'You may also send notices containing the above-required information to the following Address:',
+				},
+				{
+					isParagraph: false,
+					text: 'Arcana Labs Corp.<br />',
+				},
+				{
+					isParagraph: false,
+					text: 'Attn: General Counsel<br />',
+				},
+				{
+					isParagraph: false,
+					text: '8730 Wilshire Blvd #350Los Angeles, CA 90211<br />',
+				},
+				{
+					isParagraph: true,
+					text: 'Email: <a href="mailto:legal@arcanalabs.ai"><strong>legal@arcanalabs.ai</strong></a>',
+				},
+				{
+					isParagraph: true,
+					text: 'Upon receipt of a notice that complies with the foregoing, We reserve the right to remove or disable access to the accused material or disable any links to the material; notify the party accused of infringement that We have removed or disabled access to the identified material; and terminate access to and use of the Services for any user who engages in repeated acts of infringement.',
+				},
+				{
+					isParagraph: true,
+					text: 'Please be aware that if You knowingly misrepresent that material or activity on the Services is infringing Your copyright, You may be held liable for damages (including costs and attorneys’ fees) under Section 512(f) of the DMCA.',
+				},
+				{
+					isParagraph: true,
+					text: "<p lang='it'>Counter-Notification Procedures</p>",
+				},
+				{
+					isParagraph: true,
+					text: 'If You believe that material was removed or access to it was disabled by mistake or misidentification, You may file a counter-notification with us by submitting a written notification to our copyright agent designated above. Such notification must include substantially the following:',
+				},
+				{
+					isParagraph: false,
+					text: 'i. Your physical or electronic signature.',
+				},
+				{
+					isParagraph: false,
+					text: 'ii. An identification of the material that has been removed or to which access has been disabled and the location at which the material appeared before it was removed or access disabled.',
+				},
+				{
+					isParagraph: false,
+					text: 'iii. Adequate information by which We can contact You (including Your name, postal address, telephone number, and, if available, email address).',
+				},
+				{
+					isParagraph: false,
+					text: 'iv. A statement under penalty of perjury by You that You have a good faith belief that the material identified above was removed or disabled as a result of a mistake or misidentification of the material to be removed or disabled.',
+				},
+				{
+					isParagraph: false,
+					text: 'v. A statement that You will consent to the jurisdiction of the Federal District Court for the judicial district in which Your address is located (or if You reside outside the United States for any judicial district in which the Services may be found) and that You will accept service from the person (or an agent of that person) who provided us with the complaint at issue.',
+				},
+				{
+					isParagraph: false,
+					text: 'vi. Our designated agent to receive counter notices is the same as the agent shown above.',
+				},
+				{
+					isParagraph: false,
+					text: 'vii. The DMCA allows us to restore the removed content within 10-14 business days unless the complaining party initiates a court action against You during that time period and notifies us of the same.',
+				},
+				{
+					isParagraph: false,
+					text: 'viii. Please be aware that if You knowingly materially misrepresent that material or activity on the Services was removed or disabled by mistake or misidentification, You may be held liable for damages (including costs and attorney’s; fees) under Section 512(f) of the DMCA.',
+				},
+			],
+		},
+		{
+			title: 'Dispute Resolution and Governing Law',
+			content: [
+				{
+					isParagraph: false,
+					text: 'i.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Informal Resolution.</u> If You have an issue with the services, You agree to reach out to us before initiating a lawsuit or arbitration. This requires sending Arcana a written description of the dispute (including Your name, what You’re complaining about, and how You’d like to resolve it) along with the email address or phone number associated with Your Arcana account to <a href="mailto:disputes@arcanalabs.ai"><strong>disputes@arcanalabs.ai</strong></a>. If the dispute is not resolved within sixty (60) days after receipt of the written notice, You and Arcana agree to resolve any remaining dispute through the further dispute resolution provisions below. You must engage in this informal resolution process before starting any formal dispute resolution. Applicable statutes of limitations and due dates for arbitration filing fees or other deadlines will be tolled while the parties attempt informal resolution. If You reside in the European Union, You may also be entitled to submit Your complaint to the European Commission’s Online Dispute Resolution (ODR) Platform. ODR allows EU consumers to resolve disputes related to the online purchases of goods and services without going to court.',
+				},
+
+				{
+					isParagraph: false,
+					text: 'ii.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Governing Law and Jurisdiction.</u> The Federal Arbitration Act, federal arbitration law, and California law will apply to these terms and any disputes related to these terms or our services, regardless of conflict of laws rules. Any of these disputes that are not subject to arbitration will be resolved exclusively in the state or federal courts in Los Angeles County, California, and You and Arcana both consent to venue and personal jurisdiction in these courts. If You are a consumer residing in the European Union, this clause and these terms in general do not affect any mandatory consumer rights You may have under Your local law, and all disputes arising in connection with the services and/or these terms shall be submitted to the exclusive jurisdiction of the court of Amsterdam, the Netherlands or, if You are a consumer, to a court closer to Your domicile if in an EU Member State.',
+				},
+
+				{
+					isParagraph: false,
+					text: 'iii.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Agreement to Arbitrate.</u> IF YOU’RE A U.S. RESIDENT, YOU ALSO AGREE TO THE FOLLOWING MANDATORY ARBITRATION PROVISIONS. PLEASE READ THIS SECTION CAREFULLY – IT MAY SIGNIFICANTLY AFFECT YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT:',
+				},
+				{
+					isParagraph: true,
+					text: '⦁ You and Arcana agree that the U.S. Federal Arbitration Act governs the interpretation and enforcement of these arbitration provisions. Except for the circumstances described below, and only after the parties have engaged in a good-faith, but unsuccessful, effort to resolve the dispute in accordance with the <q>Informal Resolution</q> process (above), You and Arcana agree to resolve any dispute, disagreement, or claim relating to these terms or our services through final and binding arbitration in Los Angeles County where You reside. This includes claims that arose, were asserted, or involve facts occurring before the existence of this arbitration agreement or any prior agreement as well as claims that may arise after the termination of this arbitration agreement, in accordance with the notice and <q>Opt-out</q> provisions set forth below..',
+				},
+				{
+					isParagraph: false,
+					text: 'iv.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Arbitration rules.</u> The arbitration will be conducted by a single arbitrator, governed by these terms and the  American Arbitration Association Rules, excluding any rules or procedures governing or permitting class or representative actions (the <q>AAA Rules</q>), available at <a href="https://www.adr.org/active-rules" target="_blank" rel="noopener noreferrer"><strong>https://www.adr.org/active-rules</strong></a>. These terms will govern if there’s a conflict between these terms and the AAA Rules.  To begin the arbitration proceeding, either party must submit a written Demand for Arbitration (available at www.adr.org) with the AAA and provide a copy to the other party as specified in the AAA Rules.  To provide notice to Arcana, please send an email with the subject line <q>Arbitration Demand</q> to <a href="mailto:disputes@arcanalabs.ai"><strong>disputes@arcanalabs.ai</strong></a>. If the amount in controversy does not exceed $10,000, and You do not seek injunctive or declaratory relief, then the arbitration will be conducted solely on the basis of documents You and Arcana submit to the arbitrator, unless the arbitrator determines that a hearing is necessary. If the amount in controversy exceeds $10,000 or seeks declaratory or injunctive relief, either party may request (or the arbitrator may determine) to hold a hearing, which shall be via videoconference or telephone conference unless the parties agree otherwise.',
+				},
+				{
+					isParagraph: false,
+					text: 'v.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Arbitration Costs.</u> AAA sets forth fees for its services, which are available at <a href="https://www.adrservices.com/rate-fee-schedule/" target="_blank" rel="noopener noreferrer"><strong>https://www.adrservices.com/rate-fee-schedule/</strong></a>. If Arcana is the party initiating an arbitration against You, Arcana will pay all costs associated with the arbitration, including the entire filing fee. If You initiate an arbitration against Arcana, You will be responsible for the first $100 toward the nonrefundable Initial Filing Fee, unless the arbitrator determines that You are unable to pay, in which case Arcana will pay the entire filing fee. For cases seeking less than $75K, Arcana will pay the remainder of the Initial Filing Fee and both parties’ Administrative fees (unless the arbitrator finds Your claims, defenses, or other fee-generating activity to be conducted for an improper purpose or frivolous (under the standard set forth in Federal Rule of Civil Procedure 11).  For cases seeking more than $75K, fees and costs will be determined in accordance with AAA Rules. In all arbitrations, unless otherwise required by law or the AAA Rules, You’re responsible for all other additional arbitration costs incurred, including attorney’s fees and expert witness costs. The parties agree that AAA has discretion to modify the amount or timing of any administrative or arbitration fees due under AAA’s Rules where it deems appropriate, provided that such modification does not increase the costs to You, and You waive any objection to such fee modification. The parties also agree that a good-faith challenge by either party to the fees imposed by AAA does not constitute a default, waiver, or breach of this Section while such challenge remains pending before AAA, the arbitrator, and/or a court of competent jurisdiction.',
+				},
+				{
+					isParagraph: false,
+					text: 'vi.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Offer of Judgment.</u> At least 14 days before the date set for an arbitration hearing, any party may serve an offer in writing upon the other party to allow judgment on specified terms. If the offer made by the offering party is not accepted by the other party, and the other party fails to obtain a more favorable award, the other party will not recover its post-offer costs and will pay the offering party’s costs from the time of the offer.\n',
+				},
+				{
+					isParagraph: false,
+					text: 'vii.',
+				},
+				{
+					isParagraph: true,
+					text: "<u>Arbitration Decision.</u> The decision of the arbitrator will be in writing and binding on You and Arcana, and judgment to enforce the decision may be entered by any court of competent jurisdiction. You and Arcana agree that dispositive motions will be allowed in the arbitration. Except as explicitly set forth in this arbitration section, the arbitrator, and not any federal, state or local court or agency, shall have exclusive authority to resolve all disputes arising out of or relating to the interpretation, applicability, enforceability or formation of these terms of service, including, but not limited to any claim that all or any part of these terms of service are void or voidable, whether a claim is subject to arbitration, and any dispute regarding the payment of AAA or arbitrator fees (including the timing of such payments and remedies for nonpayment). The arbitrator must follow these terms and can award the same damages and relief as a court. The arbitrator has the right to impose sanctions in accordance with the AAA Rules and procedures for any frivolous claims, improper claims, or submissions the arbitrator determines have not been filed in good faith, as well as for a party's failure to comply with this Section or claims filed on behalf of a claimant who is not party to this agreement. No arbitration award or decision will have any preclusive effect as to issues or claims in any dispute with anyone who is not a named party to the arbitration.",
+				},
+				{
+					isParagraph: false,
+					text: 'viii.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Mass Filings.</u> If, at any time, 30 or more similar demands for arbitration are asserted against Arcana or related parties by the same or coordinated counsel or entities (<q>Mass Filing</q>), these additional rules will apply',
+				},
+				{
+					isParagraph: true,
+					text: '⦁ If You or Your counsel file a demand for arbitration that fits within the definition of Mass Filing, You agree that Your demand for arbitration will be subject to the additional protocols set forth in this mass filing subsection.',
+				},
+				{
+					isParagraph: true,
+					text: '⦁ Bellwether proceedings are encouraged by courts and arbitration administrators when there are multiple disputes involving similar claims against the same or related parties. You and Arcana agree to jointly ask the arbitrator to agree to the following procedures: The arbitrator will randomly assign sequential numbers to each of the claims included in a Mass Filing, after which the claims numbered 1-10 will be designated the <q>Initial Test Cases</q> and will proceed to arbitration. The Parties agree to decide on a single arbitrator for all Initial Test Cases and to consolidate the cases for pre-hearing procedures and the pre-hearing conference. Unless the claims are resolved in advance or the schedule is extended, the arbitrator will render final awards for the Initial Test Cases within 120 days of the initial pre-hearing conference. If fewer than 5 Initial Test Cases resolve without a final decision of the arbitrator because they are resolved in advance, cases will be selected in batches of 10 and will proceed to arbitration until at least 5 have been resolved by a final arbitrator decision. The arbitrator’s decisions for the Initial Test Cases shall be in writing and shall contain the essential findings and conclusions of fact and law upon which the arbitrator based the decision.',
+				},
+
+				{
+					isParagraph: true,
+					text: '⦁ The results of the Initial Test Cases resolved by a final arbitrator decision will then be given to a mediator who will try to facilitate a resolution of the remaining cases. After the results are provided to the mediator, the mediator and the parties will have 90 days (the <q>Mediation Period</q>) to agree on a resolution or substantive methodology for resolving the outstanding cases. If the parties are unable to resolve the outstanding claims during the Mediation Period, either Party may choose to opt out of the arbitration process and proceed in court with its remaining claims. Notice of the opt-out will be provided in writing within 60 days of the close of the Mediation Period. Opt out of arbitration under this section shall not be construed as opt out of the section titled <q>Class Waiver</q> below.',
+				},
+				{
+					isParagraph: true,
+					text: '⦁ Absent notice of an opt-out, the arbitrations will proceed in the order determined by the sequential numbers assigned to claims in the Mass Filing.',
+				},
+				{
+					isParagraph: true,
+					text: '⦁ If Your demand for arbitration is included in the Mass Filing, any statute of limitations applicable to Your claims will remain tolled until Your demand for arbitration is decided, withdrawn, or is settled.',
+				},
+				{
+					isParagraph: false,
+					text: 'ix.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Other Remedies.</u> ARBITRATION MEANS THAT YOU WAIVE YOUR RIGHT TO A JURY TRIAL. In some instances, the costs of arbitration could exceed the costs of litigation and the right to discovery may be more limited in arbitration than in court. YOU HEREBY ACKNOWLEDGE AND AGREE THAT YOU AND ARCANA ARE EACH WAIVING THE RIGHT TO A TRIAL BY JURY TO THE MAXIMUM EXTENT PERMITTED BY LAW. You may, in arbitration, seek any and all remedies otherwise available to You pursuant to Your state’s law.',
+				},
+				{
+					isParagraph: false,
+					text: 'x.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Opt-out.</u> You can decline this agreement to arbitrate by emailing an opt-out notice to <a href="mailto:arbitration-opt-out@arcanalabs.ai"><strong>arbitration-opt-out@arcanalabs.ai</strong></a> within 30 days of the Effective Date or when You first register Your Arcana account, whichever is later, otherwise You shall be bound to arbitrate disputes in accordance with the terms of these paragraphs. If You opt out of these arbitration provisions, Arcana also will not be bound by them.',
+				},
+				{
+					isParagraph: false,
+					text: 'xi.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Exceptions.</u> You or Arcana may still pursue claims, if they qualify, in small claims court in Los Angeles County, California, or any U.S. county where You live or work. The small claims court, and not any arbitrator or AAA, shall have the exclusive authority to resolve disputes regarding whether a dispute is properly within the jurisdiction of a small claims court. Additionally, disputes concerning patents, copyrights, moral rights, trademarks, and trade secrets and claims of piracy or unauthorized use of our services will not be subject to arbitration. Either party may also seek a declaratory judgment or other equitable relief in a court of competent jurisdiction regarding whether a party’s claims are time-barred or may be brought in small claims court. Seeking such relief shall not waive a party’s right to arbitration under this agreement, and any filed arbitrations related to any action filed pursuant to this paragraph shall automatically be stayed (and any applicable statute of limitations tolled) pending the outcome of such action.',
+				},
+				{
+					isParagraph: false,
+					text: 'xii.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Class Waiver.</u> IF YOU’RE A U.S. RESIDENT, EXCEPT AS PROVIDED HEREIN, YOU AND ARCANA AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN OUR INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING, UNLESS ARCANA PROVIDES ITS CONSENT TO CONSOLIDATE IN WRITING. If this specific paragraph is found unenforceable, then the <q>Agreement to Arbitrate</q> section will be null and void. If there is a final judicial determination that applicable law precludes enforcement of this paragraph’s limitations as to a particular remedy, then that remedy (and only that remedy) must be severed from the arbitration and may be sought in court. The parties agree, however, that any adjudication of remedies not subject to arbitration shall be stayed pending the outcome of any arbitrable claims and remedies. This subsection does not prevent You or Arcana from participating in a class-wide settlement of claims.',
+				},
+				{
+					isParagraph: false,
+					text: 'xiii.',
+				},
+				{
+					isParagraph: true,
+					text: '<u>Changes to this Dispute Section:</u> Arcana will provide 30 days’ notice of the date of any material changes to this clause. Changes will become effective on the 30th day and apply to all claims not yet filed. If You continue to use the site after the 30th day, You agree that any unfiled claims of which Arcana does not have actual notice are subject to the revised clause. If You reject any such changes by opting out of the arbitration agreement, You may exercise Your right to a trial by jury or judge, as permitted by applicable law, but any prior existing agreement to arbitrate disputes under a prior version of the arbitration agreement will not apply to claims not yet filed. If Arcana changes this <q>Dispute Resolution</q> section after the date You first accepted this agreement (or accepted any subsequent changes to this agreement), You agree that Your continued use of the Arcana product(s) or services 30 days after such change will be deemed acceptance of those changes. If You do not agree to such change, You may opt out by providing notice as described in this section.',
+				},
+			],
+		},
+		{
+			title: 'Unlimited Service and Rate Limiting',
+			content: [
+				{
+					isParagraph: true,
+					text: 'If You purchase an unlimited plan, We will try to reasonably offer You unlimited access to the Services. However, We reserve the right to rate limit You to prevent quality decay or interruptions to other customers.',
+				},
+			],
+		},
+		{
+			title: 'Payment and Billing',
+			content: [
+				{
+					isParagraph: true,
+					text: 'We may invoice You for Your use of the Services through a third-party payment service provider. The third-party service provider’s terms of service shall govern and supersede this Agreement in case of conflict.',
+				},
+				{
+					isParagraph: true,
+					text: 'You are free to cancel Your plan at any time. We also reserve the right to terminate Your access to the Service for any reason, including for violation of the Community Guidelines or other inappropriate use of the Service. Any violation of Community Guidelines is a breach of this Agreement. You will not be refunded for the current subscription period, but You will not be charged after the current subscription period has ended.',
+				},
+			],
+		},
+		{
+			title: 'Community Guidelines',
+			content: [
+				{
+					isParagraph: false,
+					text: '1. Be kind and respect each other and staff. Do not create images or use text prompts that are inherently disrespectful, aggressive, or otherwise abusive. Violence or harassment of any kind will not be tolerated.',
+				},
+				{
+					isParagraph: false,
+					text: '2. No adult content or gore. Please avoid making visually shocking or disturbing content. We will block some text inputs automatically.',
+				},
+				{
+					isParagraph: false,
+					text: '3. Sharing others’ creations. Do not publicly repost the creations of others without their permission.',
+				},
+				{
+					isParagraph: false,
+					text: '4. You may not use the Services to generate images for political campaigns, or to try to influence the outcome of an election.',
+				},
+				{
+					isParagraph: false,
+					text: '5. Be careful about sharing. It’s OK to share Your creations outside of the Arcana community but please consider how others might view Your content.',
+				},
+				{
+					isParagraph: false,
+					text: '6. Banhammer. Any violations of these rules may lead to bans from our services. We are not a democracy. Behave respectfully or lose Your rights to use the Service.',
+				},
+			],
+		},
+		{
+			title: 'Limitation Of Liability And Indemnity',
+			content: [
+				{
+					isParagraph: true,
+					text: 'WE DON’T EXCLUDE OR LIMIT OUR LIABILITY TO YOU WHERE IT WOULD BE ILLEGAL TO DO SO. IN COUNTRIES WHERE THE BELOW TYPES OF EXCLUSIONS AREN’T ALLOWED, WE’RE RESPONSIBLE TO YOU ONLY FOR LOSSES AND DAMAGES THAT ARE A REASONABLY FORESEEABLE RESULT OF OUR FAILURE TO USE REASONABLE CARE AND SKILL OR OUR MATERIAL BREACH OF OUR CONTRACT WITH YOU. THIS PARAGRAPH DOESN’T AFFECT CONSUMER RIGHTS THAT CAN’T BE WAIVED OR LIMITED BY ANY CONTRACT OR AGREEMENT.',
+				},
+				{
+					isParagraph: true,
+					text: 'THE INFORMATION PRESENTED ON OR THROUGH THE SERVICES IS MADE AVAILABLE SOLELY FOR INFORMATIONAL PURPOSES. WE DO NOT CONFIRM THE ACCURACY, COMPLETENESS, OR USEFULNESS OF THE INFORMATION. ANY RELIANCE YOU PLACE ON SUCH INFORMATION IS SOLELY AT YOUR OWN RISK.',
+				},
+				{
+					isParagraph: true,
+					text: 'IN COUNTRIES WHERE EXCLUSIONS OR LIMITATIONS OF LIABILITY ARE ALLOWED, NEITHER ARCANA, ITS AFFILIATES, NOR OUR SUPPLIERS INVOLVED IN CREATING, PRODUCING, OR DELIVERING THE SERVICES WILL BE LIABLE, TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, FOR ANY INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOST PROFITS, LOST REVENUES, LOST SAVINGS, LOST BUSINESS OPPORTUNITY, LOSS OF DATA OR GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE OR SYSTEM FAILURE, OR THE COST OF SUBSTITUTE SERVICES OF ANY KIND ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE SERVICES, WHETHER BASED ON WARRANTY, CONTRACT, STATUTE, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY, OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT ARCANA OR ITS SUPPLIERS HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, EVEN IF A LIMITED REMEDY PROVIDED IN THESE TERMS IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.',
+				},
+				{
+					isParagraph: true,
+					text: 'BESIDES THE TYPES OF LIABILITY WE CANNOT LIMIT BY LAW (AS DESCRIBED IN THIS SECTION), ARCANA LIMITS OUR LIABILITY TO YOU TO THE GREATER OF (A) THE AMOUNTS YOU HAVE PAID US IN THE THREE MONTHS BEFORE YOU FIRST ASSERT A CLAIM OR (B) $100 USD (OR THE EQUIVALENT IN YOUR LOCAL CURRENCY).',
+				},
+				{
+					isParagraph: true,
+					text: 'ARCANA ISN’T LIABLE FOR THE CONDUCT OR CONTENT, WHETHER ONLINE OR OFFLINE, OF ANY USER OF OUR SERVICES.',
+				},
+				{
+					isParagraph: true,
+					text: 'THE EXCLUSIONS AND LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN ARCANA AND YOU. THE LIMITATION OF LIABILITY DESCRIBED ABOVE SHALL APPLY FULLY TO RESIDENTS OF ALL STATES, INCLUDING BUT NOT LIMITED TO NEW JERSEY.',
+				},
+			],
+		},
+		{
+			title: 'Miscellaneous',
+			content: [
+				{
+					isParagraph: false,
+					text: 'i. Force Majeure. Neither party will be liable for failure or delay in performance to the extent caused by circumstances beyond its reasonable control, including acts of God, natural disasters, terrorism, riots, or war.',
+				},
+				{
+					isParagraph: false,
+					text: 'ii. No Agency. This Agreement does not create any agency, partnership, or joint venture between the parties.',
+				},
+				{
+					isParagraph: false,
+					text: 'iii. Severability. If any part of this Agreement is invalid, illegal, or unenforceable, the rest of the Agreement will remain in effect.',
+				},
+				{
+					isParagraph: false,
+					text: 'iv. No Third-Party Beneficiaries. This Agreement does not confer any benefits on any third party unless it expressly states that it does.',
+				},
+				{
+					isParagraph: true,
+					text: 'v. Survival. Any part of these terms that by their nature should survive after termination of these terms will survive. As permitted under applicable law, this includes but may not be limited to the following:',
+				},
+				{
+					isParagraph: false,
+					text: '⦁ Our rights to retain and display certain data;',
+				},
+				{
+					isParagraph: false,
+					text: '⦁ Any amounts owed will remain due;',
+				},
+				{
+					isParagraph: false,
+					text: '⦁ Any indemnification obligations (as applicable) such as those listed under the <q>Limitation of Liability and Indemnity</q> section;',
+				},
+				{
+					isParagraph: false,
+					text: '⦁ Any applicable limitation of liability such as those under the <q>Limitation of Liability and Indemnity</q> section;',
+				},
+				{
+					isParagraph: false,
+					text: '⦁ Any disclaimer of warranties;',
+				},
+				{
+					isParagraph: false,
+					text: '⦁ Any dispute resolution provisions, including the arbitration agreement, such as those under the <q>Dispute Resolution and Governing Law</q> section.',
+				},
+			],
+		},
+		{
+			title: 'Refund Eligibility And Request Procedure',
+			content: [
+				{
+					isParagraph: false,
+					text: 'Customers who have purchased credits through the Arcana Labs platform may be eligible for a refund in the following situations: billing errors, service interruptions, or dissatisfaction with our services. To request a refund, please email <a class="tos-link" href="mailto:help@arcanalabs.ai"><strong>help@arcanalabs.ai</strong></a> with your full name, contact details, date of purchase, amount of credits bought, and a brief explanation of your refund request. We will process your refund within 7 business days of receiving a valid request.',
+				},
+			],
+		},
+	],
+};

@@ -1,0 +1,26 @@
+p[lang="it"] {
+	font-style: italic; /* Set italic font style for Italian text */
+}
+
+a {
+	color: #DE04A4;
+	text-decoration: underline;
+}
+
+strong {
+	color: #DE04A4;
+	text-decoration: underline;
+}
+
+.title {
+	color: #DE04A4;
+	text-align: left;
+	letter-spacing: 1px;
+	text-transform: none;
+	padding-bottom: 1rem;
+	padding-left: 0;
+	font-family: Noto Serif,sans-serif;
+	font-size: 2.3rem;
+	font-weight: 300;
+	line-height: 125%;
+}
